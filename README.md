@@ -37,7 +37,6 @@ df = pd.read_csv('covid-data')
 # Outliers
 To view outliers click HERE
 
-![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/91520e09-71d3-46c5-9002-86b83649f1b6)
 
 
 ## Data Cleaning 
@@ -81,7 +80,6 @@ continent_cases.df.sort_values(by='total_cases', ascending=False, inplace=True)
 continent_cases.head(5)
 
 Please click HERE to view top 5 continent with total number of Covid-19 cases.
-
 
 
 ![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/c7830cb8-5d6c-4225-a101-dc234a1e9008)
