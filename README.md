@@ -81,10 +81,19 @@ continent_cases.head(5)
 
 Please click HERE to view top 5 continent with total number of Covid-19 cases.
 
-
 ![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/c7830cb8-5d6c-4225-a101-dc234a1e9008)
 
 
+# Identify countries with fluctuating R-values
+"\nProblem Statement 2: Countries with fluctuating R-values"
+# Calculate the difference in R-values for each country
+df['r_value_diff'] = df.groupby('location')['reproduction_rate'].diff()
+# Identify countries with a difference greater than 0.5
+flunctuation_countries = df[df['r_value_diff'] > 0.5].groupby('location')['r-value_diff'].max().reset_index()
+fluctuating_countries
+
+
+Please click HERE to view the difference in R-values 
 
 
 
