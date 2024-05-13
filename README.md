@@ -81,6 +81,12 @@ Please click HERE to view top 5 continent with total number of Covid-19 cases.
 
 
 
+![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/c7830cb8-5d6c-4225-a101-dc234a1e9008)
+
+
+
+
+
 
 
 
