@@ -37,6 +37,9 @@ df = pd.read_csv('covid-data')
 # Outliers
 To view outliers click HERE
 
+![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/91520e09-71d3-46c5-9002-86b83649f1b6)
+
+
 ## Data Cleaning 
 #Replacing null values with mean
 
