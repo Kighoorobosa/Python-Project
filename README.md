@@ -31,6 +31,7 @@ To view outliers click HERE
 ## Data Cleaning 
 #Replacing null values with mean
 df['total_cases'].fillna(df['total_cases'].mean(), inplace=tTrue
+
 df['total_deaths'].fillna(df['total_deaths'].mean(), inplace=tTrue
 
 # Converting date column to datetime
@@ -39,6 +40,7 @@ df['date'] = pd.to_datetime(df['date'])
 # Data Exploration
 "\nData Exploration:"
 "Distribution of Total Cases: ", df['total_cases'].describe()
+
 "Distribution of Total Deaths: ", df['total_deaths'].describe()
 
 To view death distribution click HERE
