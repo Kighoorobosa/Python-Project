@@ -91,9 +91,7 @@ df['r_value_diff'] = df.groupby('location')['reproduction_rate'].diff()
 # Identify countries with a difference greater than 0.5
 flunctuation_countries = df[df['r_value_diff'] > 0.5].groupby('location')['r-value_diff'].max().reset_index()
 fluctuating_countries
-
-
-Please click HERE to view the difference in R-values 
+ 
 ![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/ae371863-0fc1-4b7f-a649-bf47f6944950)
 
 
