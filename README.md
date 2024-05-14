@@ -61,6 +61,7 @@ df_numeric = df.select_dtypes(include=[np.number])
 correlation_matrix = df_numeric.corr()
 
 correlation_matrix
+![CorrelationMatrix](https://github.com/Kighoorobosa/Python-Project/assets/159533793/41f1a94e-dcac-4e56-97a0-745e57379f13)
 
 Please click HERE to view the correlation matrix
 
