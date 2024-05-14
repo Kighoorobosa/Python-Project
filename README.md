@@ -94,6 +94,8 @@ fluctuating_countries
 
 
 Please click HERE to view the difference in R-values 
+![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/ae371863-0fc1-4b7f-a649-bf47f6944950)
+
 
 
 
