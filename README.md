@@ -95,6 +95,10 @@ fluctuating_countries
  
 ![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/ae371863-0fc1-4b7f-a649-bf47f6944950)
 
+# Average Birth Rate
+avg_birth_rate = df.groupby9(['location', 'month'])['reproduction_rate'].mean().reset_index()
+
+![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/5d732d35-4d89-4fa0-be86-011d8eb5583c)
 
 
 
