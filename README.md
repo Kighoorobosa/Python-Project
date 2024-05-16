@@ -35,7 +35,13 @@ df = pd.read_csv('covid-data')
 "Outliers: ", df.describe()
 
 # Outliers
-To view outliers click HERE
+Below is the outliers
+
+![Outliers1](https://github.com/Kighoorobosa/Python-Project/assets/159533793/941065af-2eb8-4fbe-9622-4c2dcba00fd1)
+
+
+![Outliers2](https://github.com/Kighoorobosa/Python-Project/assets/159533793/f0f9f59d-4b60-430e-91f5-4d3b99e77dd4)
+
 
 
 
@@ -47,6 +53,7 @@ df['total_cases'].fillna(df['total_cases'].mean(), inplace=tTrue
 df['total_deaths'].fillna(df['total_deaths'].mean(), inplace=tTrue
 
 # Converting date column to datetime
+
 df['date'] = pd.to_datetime(df['date'])
 
 # Data Exploration
@@ -61,11 +68,18 @@ df_numeric = df.select_dtypes(include=[np.number])
 correlation_matrix = df_numeric.corr()
 
 correlation_matrix
+
+View the correlation matrix below
+
 ![CorrelationMatrix](https://github.com/Kighoorobosa/Python-Project/assets/159533793/41f1a94e-dcac-4e56-97a0-745e57379f13)
 
-Please click HERE to view the correlation matrix
 
-To view death distribution click HERE
+
+Death distribution is shown below
+
+![DeathDistribution](https://github.com/Kighoorobosa/Python-Project/assets/159533793/2ce91467-1838-4964-b9a4-88a11c2beb80)
+
+
 
 ## Problem Statement
 # Generate KPIs
@@ -80,7 +94,7 @@ continent_cases = df.groupby('continent')['total_cases'].sum().reset_index()
 continent_cases.df.sort_values(by='total_cases', ascending=False, inplace=True)
 continent_cases.head(5)
 
-Please click HERE to view top 5 continent with total number of Covid-19 cases.
+View top 5 continent with total number of Covid-19 cases below
 
 ![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/c7830cb8-5d6c-4225-a101-dc234a1e9008)
 
