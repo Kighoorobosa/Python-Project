@@ -129,7 +129,9 @@ country_diff
 ![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/326223ec-abd1-4f97-85f1-a1bf95e37176)
 
 # Filtering for signicant fluctuations (e.g., > 50% change)
+
 signicant_fluctuations = country_diff[country_diff['absolutedifference'] > 0.50]
+
 ![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/b79728b5-a242-4daa-b913-3e51346d5778)
 
 
