@@ -101,6 +101,39 @@ avg_birth_rate = df.groupby9(['location', 'month'])['reproduction_rate'].mean().
 ![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/5d732d35-4d89-4fa0-be86-011d8eb5583c)
 
 
+# Differential Birth Rate
+avg_birth_rate = ['difference'] = avg_birth_rate['reproduction_rate'].diff
+avg_birth_rate = ['absolutedifference'] = avg_birth_rate['reproduction_rate'].diff().abs()
+avg_birth_rate
+
+![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/4ff773b8-925c-4f24-8bba-71f5b7b71f08)
+
+# Group by country and calculate difference in average birthrate between months
+country_diff = avg_birth_rate.groupby('location')['absolutedifference'].max().reset_index()
+country_diff
+
+![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/326223ec-abd1-4f97-85f1-a1bf95e37176)
+
+# Filtering for signicant fluctuations (e.g., > 50% change)
+signicant_fluctuations = country_diff[country_diff['absolutedifference'] > 0.50]
+![image](https://github.com/Kighoorobosa/Python-Project/assets/159533793/b79728b5-a242-4daa-b913-3e51346d5778)
+
+
+## Problem Statement 4: Distribution of COVID-19 cases  and deaths by age group
+The COVID-19 dataset does not have the detailed data required to accurately answer the question about the distribution of COVID-19 cases and deaths among different age groups and how it varies across countries.It has the following limitations:
+1. It provides daily/weekly summaries at the country level,rather than 
+   individual data.
+2. It does not include age bracket information for COVID cases and 
+   deaths.
+3.The only age-related data provided    
+
+
+
+
+
+
+
+
 
 
 
