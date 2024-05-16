@@ -84,14 +84,20 @@ Death distribution is shown below
 ## Problem Statement
 # Generate KPIs
 "\nProblem Statement 1: Generate KPIs"
+
 "Total Cases: ", df['total_cases'].sum()
+
 "Total Deaths: ", df['total_deaths'].sum()
+
 "Case Fatality Rate (CFR): ', (df['total_deaths'].sum() / df['total_cases'].sum()) * 100
 
 # Show the total number of COVID-19 cases by continent (Top 5)
 "\nProblem Statement 2: Total COVID-19 cases by continent"
+
 continent_cases = df.groupby('continent')['total_cases'].sum().reset_index()
+
 continent_cases.df.sort_values(by='total_cases', ascending=False, inplace=True)
+
 continent_cases.head(5)
 
 View top 5 continent with total number of Covid-19 cases below
