@@ -152,10 +152,15 @@ Therefore,I am unable to provide a meaningful answer to the question using this 
 
 ## Insights from the Analysis
 1.Areas with high total cases tend to see more new cases.
+
 2.New cases and their smoothed versions are similar.
+
 3.More deaths are associated with areas having higher total cases.
+
 4.Countries with better healthcare infrastructure (hospital beds) might have higher life expectancies.
+
 5.There might be a link between stricter COVID-19 restrictions and fewer new cases, but no other factors likely influence this.
+
 NOTE:Correlation does not equal caussation, and further analysis is recommended.
 
 
